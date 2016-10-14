@@ -27,6 +27,205 @@
 		<jetty.version>6.1.26</jetty.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<spring.version>3.0.4.RELEASE</spring.version>
+		
+		
+
+
+    <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+
+    <junit.version>4.11</junit.version>
+    <testng.baseline.version>6.8</testng.baseline.version>
+    <easymock.baseline.version>3.1</easymock.baseline.version>
+
+    <spring.baseline.version>3.1.4.RELEASE</spring.baseline.version>
+
+    <aopalliance.version>1.0</aopalliance.version>
+    <asm.version>3.3</asm.version>
+    <asm.commons.version>3.3</asm.commons.version>
+    <asm.util.version>2.2.3</asm.util.version>
+    <aspectjrt.version>1.7.1</aspectjrt.version>
+    <aspectjweaver.version>1.7.1</aspectjweaver.version>
+    <axis.version>1.2-beta-3</axis.version>
+    <axis.ant.version>1.2-beta-3</axis.ant.version>
+    <bcprov.jdk16.version>1.46</bcprov.jdk16.version>
+    <bsf.version>2.3.0</bsf.version>
+    <c3p0.version>0.9.1.2</c3p0.version>
+    <cglib.nodep.version>2.1_3</cglib.nodep.version>
+    <commons.beanutils.version>1.8.0</commons.beanutils.version>
+    <commons.chain.version>1.2</commons.chain.version>
+    <commons.codec.version>1.3</commons.codec.version>
+    <commons.compress.version>1.4.1</commons.compress.version>
+    <commons.dbcp.version>1.2.2</commons.dbcp.version>
+    <commons.digester.version>2.0</commons.digester.version>
+    <commons.discovery.version>0.2</commons.discovery.version>
+    <commons.fileupload.version>1.2.2</commons.fileupload.version>
+    <commons.httpclient.version>3.1</commons.httpclient.version>
+    <commons.io.version>2.0.1</commons.io.version>
+    <commons.jexl.version>2.1.1</commons.jexl.version>
+    <commons.lang.version>2.5</commons.lang.version>
+    <commons-lang3.version>3.1</commons-lang3.version>
+    <commons.logging.version>1.1.1</commons.logging.version>
+    <commons.logging.api.version>1.1</commons.logging.api.version>
+    <commons.pool.version>1.3</commons.pool.version>
+    <commons-validator.version>1.3.1</commons-validator.version>
+    <dom4j.version>1.6.1</dom4j.version>
+    <dwr.version>2.0.5</dwr.version>
+    <ezmorph.version>1.0.4</ezmorph.version>
+    <filters.version>2.0.235</filters.version>
+    <freemarker.version>2.3.18</freemarker.version>
+    <geronimo-stax-api_1.0_spec.version>1.0</geronimo-stax-api_1.0_spec.version>
+    <gson.version>1.7.1</gson.version>
+    <hibernate-validator.version>4.2.0.Final</hibernate-validator.version>
+    <hornetq-core-client.version>2.2.5.Final</hornetq-core-client.version>
+    <hornetq-jms-client.version>2.2.5.Final</hornetq-jms-client.version>
+    <httpclient.version>4.1.3</httpclient.version>
+    <httpcore.version>4.1.4</httpcore.version>
+    <imgscalr-lib.version>4.2</imgscalr-lib.version>
+    <jackson-core-asl.version>1.9.2</jackson-core-asl.version>
+    <jackson-jaxrs.version>1.9.2</jackson-jaxrs.version>
+    <jackson-mapper-asl.version>1.9.2</jackson-mapper-asl.version>
+    <jackson-xc.version>1.9.2</jackson-xc.version>
+    <jaxen.version>1.1-beta-7</jaxen.version>
+    <jboss-jms-api.version>1.1.0.GA</jboss-jms-api.version>
+    <jcaptcha.version>2.0-alpha-1</jcaptcha.version>
+    <jcaptcha-api.version>2.0-alpha-1</jcaptcha-api.version>
+    <jcaptcha-extension-buffered-engine.version>2.0-alpha-1</jcaptcha-extension-buffered-engine.version>
+    <jcaptcha-extension-jbosscache-store.version>2.0-alpha-1</jcaptcha-extension-jbosscache-store.version>
+    <jcaptcha-extension-sound-freetts.version>2.0-alpha-1</jcaptcha-extension-sound-freetts.version>
+    <jcaptcha-integration-simple-servlet.version>2.0-alpha-1</jcaptcha-integration-simple-servlet.version>
+    <jdom.version>1.0</jdom.version>
+    <jersey-core.version>1.12</jersey-core.version>
+    <jersey-json.version>1.12</jersey-json.version>
+    <jersey-server.version>1.12</jersey-server.version>
+    <jersey-servlet.version>1.12</jersey-servlet.version>
+    <jersey-spring.version>1.12</jersey-spring.version>
+    <jsch.version>0.1.29</jsch.version>
+    <json-lib-jdk15.version>2.2.1</json-lib-jdk15.version>
+    <jstl.version>1.0.2</jstl.version>
+    <jstl-api.version>1.2</jstl-api.version>
+    <jstl-impl.version>1.2</jstl-impl.version>
+    <jxl.version>2.6.12</jxl.version>
+    <jxls-core.version>1.0</jxls-core.version>
+    <jxls-reader.version>1.0</jxls-reader.version>
+    <log4j.version>1.2.14</log4j.version>
+    <luaj-j2se.version>1.0</luaj-j2se.version>
+    <mail.version>1.4</mail.version>
+    <mina-core.version>2.0.4</mina-core.version>
+    <netty.version>3.2.3.Final</netty.version>
+    <ognl.version>3.0.4</ognl.version>
+    <oro.version>2.0.8</oro.version>
+    <poi.version>3.7</poi.version>
+    <poi-ooxml.version>3.7</poi-ooxml.version>
+    <poi-ooxml-schemas.version>3.7</poi-ooxml-schemas.version>
+    <poi-scratchpad.version>3.7</poi-scratchpad.version>
+    <quartz.version>1.6.5</quartz.version>
+    <shiro-all.version>1.2.1</shiro-all.version>
+    <sitemesh.version>2.4.2</sitemesh.version>
+    <validation-api.version>1.0.0.GA</validation-api.version>
+    <wsdl4j.version>1.5.2</wsdl4j.version>
+    <wstx-asl.version>3.2.0</wstx-asl.version>
+    <xbean.version>2.2.0</xbean.version>
+    <xbean-spring.version>2.8</xbean-spring.version>
+    <xfire.baseline.version>1.2.6</xfire.baseline.version>
+    <xfire-jsr181-api.version>1.0-M1</xfire-jsr181-api.version>
+    <xml-apis.version>1.3.02</xml-apis.version>
+    <xmlbeans.version>2.3.0</xmlbeans.version>
+    <XmlSchema.version>1.1</XmlSchema.version>
+    <xmlsec.version>1.4.3</xmlsec.version>
+    <xpp3_min.version>1.1.4c</xpp3_min.version>
+    <xstream.version>1.4.5</xstream.version>
+    <xmlpull.version>1.1.3.1</xmlpull.version>
+    <zip4j.version>1.3.1</zip4j.version>
+    <bcmail-jdk13.version>1.36.0</bcmail-jdk13.version>
+    <bocommapi.version>1.2.1</bocommapi.version>
+    <bocomm-netsign.version>1.8</bocomm-netsign.version>
+    <commons-collections.version>3.2</commons-collections.version>
+    <hibernate.version>3.3.1.GA</hibernate.version>
+    <IKExpression.version>2.1.2</IKExpression.version>
+    <ojdbc.version>10.2.0.1.0</ojdbc.version>
+    <ooxml.schemas.version>1.0</ooxml.schemas.version>
+    <pinyin4j.version>2.5.0</pinyin4j.version>
+    <standard.version>1.0.6</standard.version>
+
+    <fastjson.version>1.1.28</fastjson.version>
+    <jedis.version>2.1.0</jedis.version>
+    <spring-data-redis.version>1.1.0.RELEASE</spring-data-redis.version>
+    <zookeeper.version>3.4.5</zookeeper.version>
+    <slf4j.version>1.7.5</slf4j.version>
+    <guava.version>11.0.1</guava.version>
+    <curator.version>1.3.3</curator.version>
+
+    <servlet-api.version>2.5</servlet-api.version>
+
+    <cebmerchant.version>1.0.0-HP</cebmerchant.version>
+    <client-base.version>1.0.0-HP</client-base.version>
+    <cmbcproxyfees.version>1.0.0-HP</cmbcproxyfees.version>
+    <cmbJava15.version>1.0.0-HP</cmbJava15.version>
+    <CNCBCryptoPkg.version>1.0.0-HP</CNCBCryptoPkg.version>
+    <coupon-client.version>1.0.0-HP</coupon-client.version>
+    <DBSMProxy.version>1.0.0-HP</DBSMProxy.version>
+    <EbusinessClient.version>1.1.0-HP</EbusinessClient.version>
+    <empp.version>1.0.0-HP</empp.version>
+    <icbc.version>1.0.0-HP</icbc.version>
+    <isfj.version>1.0.0-HP</isfj.version>
+    <javapns.version>1.0.0-HP</javapns.version>
+    <jce.version>1.0.0-HP</jce.version>
+    <jcert.version>1.0.0-HP</jcert.version>
+    <jnet.version>1.0.0-HP</jnet.version>
+    <jnp.version>1.0.0-HP</jnp.version>
+    <jsse.version>1.0.0-HP</jsse.version>
+    <mobilepay.version>1.0.0-HP</mobilepay.version>
+    <mpi.version>1.0.0-HP</mpi.version>
+    <netpay.version>1.0.0-HP</netpay.version>
+    <netsignserver.version>1.1.0-HP</netsignserver.version>
+    <PropChecker.version>1.0.0-HP</PropChecker.version>
+    <psbc-merchant-toolkit.version>1.1.0-HP</psbc-merchant-toolkit.version>
+    <RA2.version>1.0.0-HP</RA2.version>
+    <RSASig.version>1.0.0-HP</RSASig.version>
+    <saaj-api.version>1.0.0-HP</saaj-api.version>
+    <serializer.version>1.0.0-HP</serializer.version>
+    <smproxy_sgip.version>1.0.0-HP</smproxy_sgip.version>
+    <spdbmerchant.version>1.0.0-HP</spdbmerchant.version>
+    <srcbmerchant.version>1.1.0-HP</srcbmerchant.version>
+    <TrustPayClient.version>1.0.0-HP</TrustPayClient.version>
+    <Union.version>1.0.0-HP</Union.version>
+    <chinarewards.utils.version>1.0.0-HP</chinarewards.utils.version>
+    <wappay-cryptutil.version>1.0.0-HP</wappay-cryptutil.version>
+    <commons-ssl.version>1.0.0-HP</commons-ssl.version>
+
+    <!-- add by gaobaowen -->
+    <handpay-cache-client.version>1.5.1</handpay-cache-client.version>
+    <handpay-locks.version>1.0.0</handpay-locks.version>
+    <dubbo.baseline.version>2.5.3</dubbo.baseline.version>
+    <zkclient.baseline.version>0.1</zkclient.baseline.version>
+    <javassist.version>3.9.0.GA</javassist.version>
+
+    <!-- add by gaobaowen, 2013.08.19 -->
+    <icbc-tools.version>1.0.0-HP</icbc-tools.version>
+    <payment-merchant.version>1.1.0-HP</payment-merchant.version>
+    <mb-client.version>1.0.0-HP</mb-client.version>
+    <mb-common.version>1.0.0-HP</mb-common.version>
+    <buzi-control.version>1.0.0-HP</buzi-control.version>
+    <koalii-svs.version>1.0.0-HP</koalii-svs.version>
+    <bouncycastle-jce.version>1.36.0-HP</bouncycastle-jce.version>
+    <bouncycastle-jce.classfier>jdk13</bouncycastle-jce.classfier>
+
+    <!-- add by gaobaowen, 2013.11.07 -->
+    <disruptor.version>3.2.0</disruptor.version> 
+    
+    <!-- add by gaobaowen, 2015.06.29 -->
+    <handpay.chain.version>1.0.0</handpay.chain.version>
+
+    <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+    <maven-surefire-plugin.version>2.16</maven-surefire-plugin.version>
+    <maven-war-plugin.version>2.4</maven-war-plugin.version>
+    <maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
+    <maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
+
+    <maven-javadoc-plugin.version>2.9</maven-javadoc-plugin.version>
+    <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
+    <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
+
 	</properties>
 	<build>
 		<plugins>
@@ -139,7 +338,72 @@
 	</dependencies>
 
 	<dependencyManagement>
+	
+	
 		<dependencies>
+			
+			
+			<dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-core-asl</artifactId>
+        <version>${jackson-core-asl.version}</version>
+        
+      </dependency>
+
+      <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-jaxrs</artifactId>
+        <version>${jackson-jaxrs.version}</version>
+        
+      </dependency>
+
+      <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-mapper-asl</artifactId>
+        <version>${jackson-mapper-asl.version}</version>
+        
+      </dependency>
+
+      <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-xc</artifactId>
+        <version>${jackson-xc.version}</version>
+        
+      </dependency>
+			
+			
+		<dependency>
+        	<groupId>org.apache.commons</groupId>
+        	<artifactId>commons-ssl</artifactId>
+        	<version>${commons-ssl.version}</version>
+        	 
+      	</dependency>
+			
+		   <dependency>
+       			<groupId>net.sf.json-lib</groupId>
+        		<artifactId>json-lib</artifactId>
+        		<classifier>jdk15</classifier>
+        		<version>${json-lib-jdk15.version}</version>
+        		 
+      		</dependency>
+			
+			<dependency>
+        			<groupId>commons-httpclient</groupId>
+        			<artifactId>commons-httpclient</artifactId>
+        		<version>${commons.httpclient.version}</version>
+        		 
+      		</dependency>
+			
+<!-- 	
+			<dependency>
+				<groupId>net.sf.json-lib</groupId>
+				<artifactId>json-lib</artifactId>
+				<version>2.2.1</version>
+				<classifier>jdk15</classifier>
+				<scope>compile</scope>
+			</dependency>
+ -->	
+    
 			<dependency>
 				<groupId>antlr</groupId>
 				<artifactId>antlr</artifactId>
@@ -373,13 +637,7 @@
 				<version>5.3.2</version>
 				<scope>compile</scope>
 			</dependency>
-			<dependency>
-				<groupId>net.sf.json-lib</groupId>
-				<artifactId>json-lib</artifactId>
-				<version>2.2.1</version>
-				<classifier>jdk15</classifier>
-				<scope>compile</scope>
-			</dependency>
+			
 			<dependency>
 				<groupId>net.sf.jxls</groupId>
 				<artifactId>jxls-core</artifactId>
@@ -488,18 +746,7 @@
 				<version>1.6.9</version>
 				<scope>compile</scope>
 			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-core-lgpl</artifactId>
-				<version>1.7.1</version>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-mapper-lgpl</artifactId>
-				<version>1.7.1</version>
-				<scope>compile</scope>
-			</dependency>
+			 
 			<dependency>
 				<groupId>org.dbunit</groupId>
 				<artifactId>dbunit</artifactId>
@@ -759,6 +1006,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
+	
 	<repositories>
 		<repository>
 			<snapshots>

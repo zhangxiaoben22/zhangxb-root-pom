@@ -1008,25 +1008,7 @@
 	</dependencyManagement>
 	
 	
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>tbc.releases</id>
-			<name>TBC Releases Repository</name>
-			<url>http://tbc.nexus.com:8080/nexus/content/repositories/releases/</url>
-		</repository>
-		<repository>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-			<id>tbc.snapshots</id>
-			<name>TBC Snapshots Repository</name>
-			<url>http://tbc.nexus.com:8080/nexus/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
+	
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
@@ -1043,17 +1025,5 @@
 			<layout>default</layout>
 		</snapshotRepository>
 	</distributionManagement>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>tb</id>
-			<name>Maven tb Mirror</name>
-			<url>http://tbc.nexus.com:8080/nexus/content/repositories/snapshots/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
+	
 </project>
